@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className="bg-white shadow-md"
+      className="bg-white shadow-md z-10 sticky top-0"
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -28,7 +28,7 @@ const Navbar = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
               >
-                IIT Madras AI Assistant
+                InstiGPT
               </motion.span>
             </Link>
           </div>
@@ -109,7 +109,7 @@ const Navbar = () => {
           {["Chat", "About", "Contact"].map((item) => (
             <motion.div
               key={item}
-              whileHover={{ scale: 1.1, color: "#800000" }}
+              whileHover={{ scale: 0.9, color: "#800000" }}
               transition={{ duration: 0.2 }}
             >
               <Link

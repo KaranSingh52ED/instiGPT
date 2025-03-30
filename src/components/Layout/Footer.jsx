@@ -12,13 +12,11 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center">
               <img
-                src="/iitm-logo.png"
+                src="https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png"
                 alt="IIT Madras Logo"
                 className="h-10 w-auto"
               />
-              <span className="ml-3 text-xl font-bold">
-                IIT Madras AI Assistant
-              </span>
+              <span className="ml-3 text-xl font-bold">InstiGPT</span>
             </Link>
             <p className="mt-4 text-gray-400 text-sm">
               Get instant answers to your questions about IIT Madras, including
